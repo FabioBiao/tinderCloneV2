@@ -7,7 +7,7 @@ import Cards from './dbCards.js';
 // app config
 const app = express();
 const port = process.env.PORT || 8081
-const connection_url = 'mongodb+srv://admin:mjKlGYz3UFhHlabX@cluster0.w539x.mongodb.net/tinderdb?retryWrites=true&w=majority';
+const connection_url = 'Connect URL HERE ';
 
 // middlewares
 app.use(express.json());
